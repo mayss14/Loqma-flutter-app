@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+
+/*import 'package:flutter/material.dart';
 
 import 'home.dart';
 
@@ -18,11 +19,7 @@ class _SplashState extends State<Splash> {
   _navigatetohomt() async {
     await Future.delayed(Duration(seconds: 10), () {
       Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-              builder: (context) => MyHomePage(
-                    title: "Meal Generator",
-                  )));
+          context, MaterialPageRoute(builder: (context) => MyHomePage()));
     });
   }
 
@@ -49,3 +46,5 @@ class _SplashState extends State<Splash> {
     )));
   }
 }
+
+*/
