@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mealgenerator/recipecard.dart';
 
-import 'mc.dart';
+import 'maincourse.dart';
 
 class MultiSelect extends StatefulWidget {
   final List<String> items;
@@ -59,11 +59,11 @@ class _MultiSelectState extends State<MultiSelect> {
       actions: [
         TextButton(
           onPressed: _cancel,
-          child: const Text('Cancel'),
+          child: const Text('إلغاء'),
         ),
         ElevatedButton(
           onPressed: _submit,
-          child: const Text('Submit'),
+          child: const Text('بحث '),
         ),
       ],
     );

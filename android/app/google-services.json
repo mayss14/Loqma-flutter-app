@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "447663494340",
+    "project_id": "wassfaty-3a2cd",
+    "storage_bucket": "wassfaty-3a2cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447663494340:android:200afc43b60bbd1a9ba591",
+        "android_client_info": {
+          "package_name": "com.example.mealgenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447663494340-a1j5puqnj4cpho30m6lgjeit1kqppn3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7QQalJM5DlTQ8sZLjvGUFL7Ceyl8T5ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447663494340-a1j5puqnj4cpho30m6lgjeit1kqppn3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

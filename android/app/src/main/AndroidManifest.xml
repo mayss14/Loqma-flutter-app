@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mealgenerator">
    <application
-        android:label="وصفتي"
+        android:label="لُقْمَة"
         android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/appicon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

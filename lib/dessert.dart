@@ -6,26 +6,28 @@ class Dessert extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(top: 4),
-            child: Text(" حلويات",
-                textAlign: TextAlign.right,
-                style: TextStyle(
-                    fontSize: 28.0,
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(255, 90, 60, 42))),
+           leading: Padding(
+             padding: const EdgeInsets.only(left:20.0),
+             child: IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: Icon(Icons.arrow_back_ios),
+       
+             
+              ),
+           ),
+          foregroundColor: Color.fromARGB(255, 174, 153, 107),
+          title: Padding(
+            padding: const EdgeInsets.only(left:200.0),
+            child: Text(" حلويات",style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),)
           ),
-          Padding(
-            padding: const EdgeInsets.only(bottom: 10, right: 30, left: 12),
-            child: Image(image: AssetImage("images/logBrown.png")),
-          ),
-        ],
-        backgroundColor: Colors.white,
-        elevation: 10.0,
-      ),
-      body: menu(context),
+          backgroundColor: Colors.white,
+         
+        ),
+     body: menu(context),
       backgroundColor: Color.fromARGB(248, 240, 222, 180),
     );
   }
@@ -33,4 +35,10 @@ class Dessert extends StatelessWidget {
 
 Widget menu(BuildContext context) {
   return Container();
+
+  //NB
+  //TO BE IMPLEMETED LATER ON
+  //SAME CODE AS IN lib\maincourse.dart WILL BE APPLIED HERE
+  //WITH THE NECESSARY CHANGES
+  //DUE TO TIME CONSTRAINTS, THIS WILL BE IMPLEMENTED LATER ON
 }

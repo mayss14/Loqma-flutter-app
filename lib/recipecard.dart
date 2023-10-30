@@ -10,6 +10,7 @@ class RecipeCard extends StatelessWidget {
   final String cookTime;
   final String thumbnailUrl;
   bool visible = false;
+  final String cal ;
 
   RecipeCard({
     required this.title,
@@ -17,6 +18,7 @@ class RecipeCard extends StatelessWidget {
     required this.rating,
     required this.thumbnailUrl,
     required this.visible,
+    required this.cal
   });
 
   @override
@@ -43,7 +45,7 @@ class RecipeCard extends StatelessWidget {
           ],
           image: DecorationImage(
             colorFilter: ColorFilter.mode(
-              Colors.black.withOpacity(0.35),
+              Colors.black.withOpacity(0.2),
               BlendMode.multiply,
             ),
             image: AssetImage(thumbnailUrl),
@@ -73,7 +75,7 @@ class RecipeCard extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.4),
+                      color: Color.fromARGB(255, 246, 242, 242).withOpacity(0.7),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     child: Row(
@@ -84,7 +86,7 @@ class RecipeCard extends StatelessWidget {
                           size: 18,
                         ),
                         SizedBox(width: 7),
-                        Text(rating),
+                        Text(rating.toString()),
                       ],
                     ),
                   ),
@@ -92,7 +94,7 @@ class RecipeCard extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.4),
+                      color: Color.fromARGB(255, 251, 247, 247).withOpacity(0.7),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     child: Row(
@@ -106,7 +108,27 @@ class RecipeCard extends StatelessWidget {
                         Text(cookTime),
                       ],
                     ),
+                  ),
+                    Container(
+                    padding: EdgeInsets.all(5),
+                    margin: EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 251, 247, 247).withOpacity(0.7),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.calculate,
+                          color: Colors.yellow,
+                          size: 18,
+                        ),
+                        SizedBox(width: 7),
+                        Text(cal),
+                      ],
+                    ),
                   )
+              
                 ],
               ),
               alignment: Alignment.bottomLeft,
