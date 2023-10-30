@@ -1,19 +1,17 @@
-# mealgenerator
+# Loqma Flutter Mobile App
 
-A new Flutter project.
+Loqma is mobile application I developed in honor of all the incredible #Moroccan #MOTHERS.It is a simple and unique recipe app dedicated to making their lives in the kitchen easier, more enjoyable and help them with the complicated mission they have to accomplish every single day. It also aims to simplify their culinary journey, so they can spend more quality time with their loved ones. 💐❤️
 
-## Getting Started
+Loqma is also for anyone who is tired of searching through endless recipe websites only to find out what to cook. 🌟
 
-This project is a starting point for a Flutter application.
+👉 Imagine finding delicious recipes that can be made SOLELY with the ingredients you already have in your kitchen, no more or less! With Loqma you can turn your everyday ingredients into mouthwatering #Moroccan meals in no time. 🍲🔥
 
-A few resources to get you started if this is your first Flutter project:
+🎯 Loqma Features:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Easy-to-use interface: Navigate through the app effortlessly and find recipes with just a few taps.
+✅ Recipe recommendations: Discover a wide range of recipes, from quick and simple meals to gourmet delights.
+✅ Ingredient substitutions: Loqma suggests alternatives if you're missing certain ingredients, ensuring you can still create amazing dishes.
+✅ Cooking tips and techniques: Learn helpful tips and techniques to enhance your culinary skills and make every dish a success by watching the recipe's main video.
+✅ Save and share: Save your favorite recipes and share them with friends and family directly from the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# PFA
-# PFA
-# Wassfaty-flutter-app
+🌍 Loqma is not just a recipe app; it's a heartfelt tribute to the incredible strength, love, and dedication of #Moroccan mothers who fill our lives with love and nourishment! 🤝🍳
