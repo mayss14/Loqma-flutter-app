@@ -15,3 +15,9 @@ Loqma is also for anyone who is tired of searching through endless recipe websit
 ✅ Save and share: Save your favorite recipes and share them with friends and family directly from the app.
 
 🌍 Loqma is not just a recipe app; it's a heartfelt tribute to the incredible strength, love, and dedication of #Moroccan mothers who fill our lives with love and nourishment! 🤝🍳
+
+
+
+
+https://github.com/mayss14/Loqma-flutter-app/assets/96689689/31ad48f2-16be-4382-b287-9bf3bd56f55a
+
